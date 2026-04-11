@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "CarRental.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/CarRental.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CarRental.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CarRental.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CarRental.Domain/CarRental.Domain.csproj",
+      "msbuildProject": "../CarRental.Domain/CarRental.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "CarRental.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\shiha_a8q6i0r\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\shiha_a8q6i0r\\Desktop\\Car Rental Project\\CarRental.Domain\\CarRental.Domain.csproj": {
+              "projectPath": "C:\\Users\\shiha_a8q6i0r\\Desktop\\Car Rental Project\\CarRental.Domain\\CarRental.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
