@@ -6,7 +6,7 @@ using System.Text;
 
 namespace CarRental.Application.Repositories
 {
-    public interface IFuleTypeRepository:IRepository<FuleType>
+    public interface IFuleTypeRepository:IRepository<FuleType> 
     {
         void Update(FuleType entity);
     }

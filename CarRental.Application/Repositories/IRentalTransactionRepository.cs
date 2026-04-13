@@ -7,6 +7,7 @@ using System.Text;
 namespace CarRental.Application.Repositories
 {
     public interface IRentalTransactionRepository:IRepository<RentalTransaction>
-    {
+    { 
+        void Update(RentalTransaction transaction);
     }
 }

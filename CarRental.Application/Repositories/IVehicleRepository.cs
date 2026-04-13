@@ -11,4 +11,4 @@ namespace CarRental.Application.Repositories
         void Update(Vehicle entity);
     }
 
-}
+} 

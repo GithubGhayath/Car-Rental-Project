@@ -7,7 +7,7 @@ using System.Text;
 namespace CarRental.Application.Repositories
 {
     public interface IRentalBookingRepository:IRepository<RentalBooking>
-    {
+    { 
         void Update(RentalBooking newBooking);
     }
 }

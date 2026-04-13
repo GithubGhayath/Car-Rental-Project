@@ -6,7 +6,7 @@ using System.Text;
 
 namespace CarRental.Application.Repositories
 {
-    public interface ICustomerRepository:IRepository<Customer>
+    public interface ICustomerRepository:IRepository<Customer> 
     {
         void Update(Customer entity);
     }

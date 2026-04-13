@@ -6,8 +6,8 @@ using System.Text;
 
 namespace CarRental.Application.Repositories
 {
-    public interface IVechicleCategoryRepository:IRepository<VehicleCategory>
+    public interface IVehicleCategoryRepository:IRepository<VehicleCategory>
     {
-        void Update(VehicleCategory entity);
+        void Update(VehicleCategory entity); 
     }
 }
