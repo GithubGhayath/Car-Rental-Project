@@ -1,11 +1,15 @@
 C:\Users\shiha_a8q6i0r\Desktop\Car Rental Project\CarRental.Application\bin\Debug\net10.0\CarRental.Application.deps.json
 C:\Users\shiha_a8q6i0r\Desktop\Car Rental Project\CarRental.Application\bin\Debug\net10.0\CarRental.Application.dll
 C:\Users\shiha_a8q6i0r\Desktop\Car Rental Project\CarRental.Application\bin\Debug\net10.0\CarRental.Application.pdb
+C:\Users\shiha_a8q6i0r\Desktop\Car Rental Project\CarRental.Application\bin\Debug\net10.0\CarRental.Domain.dll
+C:\Users\shiha_a8q6i0r\Desktop\Car Rental Project\CarRental.Application\bin\Debug\net10.0\CarRental.Domain.pdb
+C:\Users\shiha_a8q6i0r\Desktop\Car Rental Project\CarRental.Application\obj\Debug\net10.0\CarRental.Application.csproj.AssemblyReference.cache
 C:\Users\shiha_a8q6i0r\Desktop\Car Rental Project\CarRental.Application\obj\Debug\net10.0\CarRental.Application.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\shiha_a8q6i0r\Desktop\Car Rental Project\CarRental.Application\obj\Debug\net10.0\CarRental.Application.AssemblyInfoInputs.cache
 C:\Users\shiha_a8q6i0r\Desktop\Car Rental Project\CarRental.Application\obj\Debug\net10.0\CarRental.Application.AssemblyInfo.cs
 C:\Users\shiha_a8q6i0r\Desktop\Car Rental Project\CarRental.Application\obj\Debug\net10.0\CarRental.Application.csproj.CoreCompileInputs.cache
 C:\Users\shiha_a8q6i0r\Desktop\Car Rental Project\CarRental.Application\obj\Debug\net10.0\CarRental.Application.sourcelink.json
+C:\Users\shiha_a8q6i0r\Desktop\Car Rental Project\CarRental.Application\obj\Debug\net10.0\CarRenta.87FDFFE6.Up2Date
 C:\Users\shiha_a8q6i0r\Desktop\Car Rental Project\CarRental.Application\obj\Debug\net10.0\CarRental.Application.dll
 C:\Users\shiha_a8q6i0r\Desktop\Car Rental Project\CarRental.Application\obj\Debug\net10.0\refint\CarRental.Application.dll
 C:\Users\shiha_a8q6i0r\Desktop\Car Rental Project\CarRental.Application\obj\Debug\net10.0\CarRental.Application.pdb
