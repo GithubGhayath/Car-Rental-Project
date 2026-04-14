@@ -10,7 +10,7 @@ namespace CarRental.Domain.Entities
         public required string Make { get; set; }
         public required string Model { get; set; }
         public int Year { get; set; }
-        public int Mileage { get; set; }
+        public int? Mileage { get; set; }
         public int FuleTypeId { get; set; }
         public required string PlateNumber { get; set; }
         public int VehicleCategoryId { get; set; }

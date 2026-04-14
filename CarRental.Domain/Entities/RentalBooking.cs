@@ -10,10 +10,10 @@ namespace CarRental.Domain.Entities
         public int CustomerId { get; set; }
         public int VehicleId { get; set; }
         public DateTime RentalStartDate {  get; set; }
-        public DateTime RentalEndDate {  get; set; }
+        public DateTime? RentalEndDate {  get; set; }
         public required string PickupLocation { get; set; }
-        public required string DropoffLocation { get; set; }
-        public int InitialRentalDays { get; set; }
+        public required string DropoffLocation { get; set; } 
+        public byte InitialRentalDays { get; set; }
         public decimal RentalPricePerDay { get; set; }
         public decimal InitialTotalDueAmount { get; set; }
         public required string IntialCheckNotes { get; set; }

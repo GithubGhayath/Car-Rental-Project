@@ -12,7 +12,7 @@ namespace CarRental.Domain.Entities
         public required string ContactInformation { get; set; }
 
         // Navigation properties
-        public ICollection<RentalBooking>? RentalBookings { get; set; }
+        public ICollection<RentalBooking> RentalBookings { get; set; } = new List<RentalBooking>();
 
     }
 }

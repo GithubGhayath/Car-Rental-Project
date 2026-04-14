@@ -20,7 +20,7 @@ namespace CarRental.Infrastructure.Data.Config
             builder.Property(rb => rb.InitialTotalDueAmount).HasColumnType("smallmoney").IsRequired(true);
             builder.Property(rb => rb.RentalPricePerDay).HasColumnType("smallmoney").IsRequired(true);
             builder.Property(rb => rb.InitialRentalDays).HasColumnType("tinyint").IsRequired(true);
-            builder.Property(rb => rb.RentalStartDate).HasColumnType("date").IsRequired(true);
+            builder.Property(rb => rb.RentalStartDate).HasColumnType("date").IsRequired(true); 
             builder.Property(rb => rb.RentalEndDate).HasColumnType("date").IsRequired(false);
 
             builder.HasOne(rb => rb.Customer).WithMany(c => c.RentalBookings).HasForeignKey(rb => rb.CustomerId).OnDelete(DeleteBehavior.Cascade);

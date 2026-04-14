@@ -14,7 +14,7 @@ namespace CarRental.Infrastructure.Data.Config
             builder.ToTable("RentalTransactions");
             builder.HasKey(rt => rt.Id);
             builder.Property(rt => rt.Id).ValueGeneratedOnAdd();
-            builder.Property(rt => rt.PaymentDetails).HasColumnType("NVARCHAR").HasMaxLength(100).IsRequired(true);
+            builder.Property(rt => rt.PaymentDetails).HasColumnType("NVARCHAR").HasMaxLength(100).IsRequired(true); 
             builder.Property(rt => rt.PaidInitialTotalDueAmount).HasColumnType("smallmoney").IsRequired(true);
             builder.Property(rt => rt.ActualTotalDueAmount).HasColumnType("smallmoney").IsRequired(true);
             builder.Property(rt => rt.TotalRemaining).HasColumnType("smallmoney").IsRequired(false);
